@@ -21,7 +21,7 @@
 <h2 name="1">使用</h2>
 <h3 name="1.1">安装</h3>
 ```bash
-sudo get -P /usr/local/bin http://oss-shanghai.rainman.me/kyeremal/tl
+sudo wget -P /usr/local/bin http://oss-shanghai.rainman.me/kyeremal/tl
 sudo chmod u+x /usr/local/bin/tl
 ```
 <h3 name="1.2">参数</h3>
