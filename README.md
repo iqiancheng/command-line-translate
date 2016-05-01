@@ -10,7 +10,6 @@
 ........[支持语言](#2.1)  
 ........[语言代码](#2.2)
 
-<h2 name="0">介绍</h2>
 <h3 name="0.1">单词翻译</h3>
 当看到一个生词时，不再需要复制进翻译软件，而是直接在命令行中获得中文翻译！  
 使用 [YouDao API](http://fanyi.youdao.com/openapi?path=data-mode) 制作的一个命令行查词脚本。
@@ -21,14 +20,12 @@
 
 <h2 name="1">使用</h2>
 <h3 name="1.1">安装</h3>
-```
+```bash
 sudo -i
-cd /bin/
+cd /usr/local/bin/
 wget http://oss-shanghai.rainman.me/kyeremal/tl
-chmod 777 tl
-sudo mv tl [filename] #[filename] is any name u want
+chmod u+x tl
 ```
-在 os x 10.11 下会有 rootless 导致 /bin 目录下无权限的问题，可以在开机时按住 command + R，实用工具->终端，输入 csrutil disable; reboot 禁用 rootless~
 <h3 name="1.2">参数</h3>
 | 参数        | 可选           | 可选  | 默认值 |
 |:------------- |:-------------|:-----|:-----|
